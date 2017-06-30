@@ -1,0 +1,1 @@
+<img src="{{ url('/'.env('UPLOAD_PATH').'/'.$image) }}" width="50" height="50" class="img-responsive thumbnail" alt="">
