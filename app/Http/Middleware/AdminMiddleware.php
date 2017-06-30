@@ -22,6 +22,7 @@ class AdminMiddleware
         }
         if(Auth::user()->group_id == 1 ||Auth::user()->group_id == 3)
         {
+
             return $next($request);
         }
         return redirect('/');

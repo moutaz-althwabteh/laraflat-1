@@ -1,3 +1,3 @@
-<a href="{{ url('/admin/page/'.$id.'/view') }}" class="btn btn-warning btn-circle waves-effect waves-circle waves-float">
+<a href="{{ url('/admin/page/'.$id.'/view') }}" class="btn btn-circle btn-icon-only btn-warning">
     <i class="material-icons">pageview</i>
 </a>

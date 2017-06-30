@@ -158,6 +158,18 @@ function getModalFromItem($link)
 
 }
 
+function checkMenuSelect($link){
+
+    if (strpos( Route::getFacadeRoot()->current()->uri(),$link) !== false) {
+
+       return true;
+    }else{
+        return false;
+    }
+
+
+}
+
 
 
 
